@@ -49,9 +49,9 @@ namespace Unify
     
                             DontDestroyOnLoad(singleton);
     
-                            Debug.Log("[Singleton] An instance of " + typeof(T) +
+                            /*Debug.Log("[Singleton] An instance of " + typeof(T) +
                                 " is needed in the scene, so '" + singleton +
-                                "' was created with DontDestroyOnLoad.");
+                                "' was created with DontDestroyOnLoad.");*/
                         }
                         else
                         {
