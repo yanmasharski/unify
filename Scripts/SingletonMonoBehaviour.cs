@@ -24,7 +24,7 @@ namespace Unify
                     Debug.LogWarning("[Singleton] Instance '" + typeof(T) +
                         "' already destroyed on application quit." +
                         " Won't create again - returning null.");
-                    return null;
+                    return default(T);
                 }
     
                 lock (_lock)
